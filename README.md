@@ -14,13 +14,8 @@ This repository contains an automated end-to-end data analytics solution designe
 ---
 
 ## 🛠️ Data Pipeline & Tech Stack
-Python (Data Generation)
-│
-▼
-Power Query (ETL & Transformation)
-│
-▼
-Power BI & DAX (Modeling & Visualization)
+Python (Data Generation) -> Power Query (ETL & Transformation) -> Power BI & DAX (Modeling & Visualization)
+
 * **Python:** Generated synthetic datasets simulating realistic HSE oil spill telemetry and operational records.
 * **Power Query:** Performed ETL processes including data cleaning, handling missing values, column standardization, and schema structuring.
 * **Power BI & DAX:** Constructed a star schema model and wrote custom DAX measures for turnaround calculations, rolling metrics, and KPI visualizations.
